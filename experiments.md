@@ -68,13 +68,28 @@ sklearn - LogisticRegression
 ### Preprocessing
 - 
 ### Model choosing
-sklearn - LogisticRegression
+sklearn - SVC
 ### Замечания
--
+- Лучшая регуляризация - `C=1.8`
+Модель SVM с kernel RBF показала лучшие резальтаты относительно логистической регрессии.
 
 ### Идеи на будущее
-- Попробовать реализовать DT, RF, GBM на этой задаче
-
+- Попробовать реализовать DT, RF, GBM на этой задаче.
+- Поиграться с регуляризацией и ядрами.
 ### Metrics
-*Accuracy - 0.949760765*
-*Kaggle - 0.76315*
+*Accuracy - 0.95454*
+*Kaggle - 0.78468*
+
+
+## 5-rd iteration
+### Preprocessing
+- 
+### Model choosing
+sklearn - DecisionTree
+### Замечания
+- 
+### Идеи на будущее
+- Попробовать реализовать RF, GBM на этой задаче.
+### Metrics
+*Accuracy - 0.95454*
+*Kaggle - 0.78468*
